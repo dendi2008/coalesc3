@@ -1,0 +1,35 @@
+# Display Seira Alarm as normal text in English
+# First line
+@@ CHLCC_AA02.scs
+	CallFar 6, @ignore
+	MessWindowCloseEx 0
+	MessWindowClosedWait
+-   $W(3172) = 40;
++   $W(3172) = 0;
+
+# Second line
+@@ CHLCC_AA02.scs
+	MesSetMesScx 0, 3
+	MesMain
+	MessWindowCloseEx 0
+	MessWindowClosedWait
+-   $W(3172) = 40;
++   $W(3172) = 0;
+
+# Third line
+@@ CHLCC_AA02.scs
+	MesSetMesScx 0, 5
+	MesMain
+	MessWindowCloseEx 0
+	MessWindowClosedWait
+-   $W(3172) = 40;
++   $W(3172) = 0;
+
+# Fourth line
+@@ CHLCC_AA02.scs
+	MesSetMesScx 0, 11
+	MesMain
+	MessWindowCloseEx 0
+	MessWindowClosedWait
+-   $W(3172) = 40;
++   $W(3172) = 0;

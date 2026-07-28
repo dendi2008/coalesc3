@@ -10,6 +10,7 @@
 +		KeyboardOnJump03 60, 1, @label(first_sysmes)
 +		Jump @label(loop)
 +	@label(first_sysmes):
++		SystemMesFadeOut
 +		FlagOnJump 1223, @label(second_sysmes)
 +		Call 304
 +		SystemMesInit

@@ -4,6 +4,7 @@
 +       KeyboardOnJump03 60, 1, @label(flag_on_jump)
 	    Jump 1
 +	@label(flag_on_jump):
++        SystemMesFadeOut 1
 +        FlagOnJump 1223, @label(call_rl)
 +	     CallRL 313, @ra(first_sysmes)
 +   *@ra(first_sysmes):

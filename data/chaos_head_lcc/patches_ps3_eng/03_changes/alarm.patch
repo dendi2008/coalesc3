@@ -6,6 +6,11 @@
 	MessWindowClosedWait
 -   $W(3172) = 40;
 +   $W(3172) = 0;
+    AutoSaveSetSavePoint
+    AutoSave_14
+    SetSavePointMain
+    SetFlag 1288
+-   SetFlag 1205
 
 # Second line
 @@ CHLCC_AA02.scs
@@ -15,6 +20,11 @@
 	MessWindowClosedWait
 -   $W(3172) = 40;
 +   $W(3172) = 0;
+    AutoSaveSetSavePoint
+    AutoSave_14
+    SetSavePointMain
+    SetFlag 1288
+-   SetFlag 1205
 
 # Third line
 @@ CHLCC_AA02.scs
@@ -24,6 +34,11 @@
 	MessWindowClosedWait
 -   $W(3172) = 40;
 +   $W(3172) = 0;
+    AutoSaveSetSavePoint
+    AutoSave_14
+    SetSavePointMain
+    SetFlag 1288
+-   SetFlag 1205
 
 # Fourth line
 @@ CHLCC_AA02.scs
@@ -33,3 +48,8 @@
 	MessWindowClosedWait
 -   $W(3172) = 40;
 +   $W(3172) = 0;
+    AutoSaveSetSavePoint
+    AutoSave_14
+    SetSavePointMain
+    SetFlag 1288
+-   SetFlag 1205
